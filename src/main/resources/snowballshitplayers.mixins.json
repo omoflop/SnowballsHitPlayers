@@ -1,12 +1,13 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "mod.omoflop.snowballshitplayers.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
+    "SnowballEntityMixin",
+    "LivingEntityMixin"
   ],
   "client": [
-    "ExampleMixin"
   ],
   "injectors": {
     "defaultRequire": 1

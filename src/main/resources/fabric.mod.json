@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "snowballshitplayers",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Snowballs Hit Players",
+  "description": "Restores the old behaviour of snowballs, allowing them to deal knockback to players.",
   "authors": [
-    "Me!"
+    "omoflop"
   ],
   "contact": {
     "homepage": "https://fabricmc.net/",
@@ -14,16 +14,16 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/snowballshitplayers/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "mod.omoflop.snowballshitplayers.SnowballsHitPlayers"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "snowballshitplayers.mixins.json"
   ],
 
   "depends": {
