@@ -4,8 +4,11 @@
   "package": "mod.omoflop.snowballshitplayers.mixin",
   "compatibilityLevel": "JAVA_16",
   "mixins": [
-    "SnowballEntityMixin",
-    "LivingEntityMixin"
+    "EggEntityMixin",
+    "EnderPearlEntityMixin",
+    "ItemsMixin",
+    "LivingEntityMixin",
+    "SnowballEntityMixin"
   ],
   "client": [
   ],
